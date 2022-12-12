@@ -43,7 +43,7 @@ for i in range(len(NoteReq)):
             print(out.format(NoteReq[i]))
 """
 
-#Reverse of an Array
+#Reverse of List
 """
 list1 = [1,2,3,4,5,6]
 no = 6
