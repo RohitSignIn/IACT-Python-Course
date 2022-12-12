@@ -43,6 +43,23 @@ for i in range(len(NoteReq)):
             print(out.format(NoteReq[i]))
 """
 
-#WAP to check Prime no or not
+#Reverse of an Array
+"""
+list1 = [1,2,3,4,5,6]
+no = 6
+i = 0
+j = no - 1
+temp = 0
+while(i<j):
+    temp = list1[i]
+    list1[i] = list1[j]
+    list1[j] = temp
+    i += 1
+    j -= 1
+
+print(list1)
+"""
+
+
     
 
