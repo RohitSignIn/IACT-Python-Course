@@ -1,1 +1,2 @@
-1
+;
+print(output.format(max, min))

@@ -13,7 +13,7 @@ print(rev)
 #Print No of NOTES Require for amount a 
 """
 amount = int(input("Enter Amount: "))
-AllNotes = (100, 50, 20, 1);
+AllNotes = (100, 50, 20, 1)
 NoteReq = []
 temp = 0
 for i in range(len(AllNotes)):
@@ -62,17 +62,19 @@ print(list1)
 
 #Print Max and Min from a LIST
 """
-list1 = [2,4,3,6,7,10] 
+list1 = [2,4,3,6,7,10]
 no = 6
-max, min = list1[0]
-for i in range(1, 6, 1)
-    if (max < list[i+1]):
-        max = list[i+1]
-    if (min > list[i+1]):
-        min = list[i+1]
+maxno = list1[0]
+minno = list1[0]
+for i in range(1, 6, 1):
+    if (maxno < list1[i]):
+        maxno = list1[i]
+    if (minno > list1[i]):
+        minno = list1[i]
+    # print(i)
 
-output = "Maximum no is {} and the Minimum no is {}";
-print(output.format(max, min))
+output = "Maximum no is {} and the Minimum no is {}"
+print(output.format(maxno, minno))
 """
 
 #Find Unique from an List
@@ -94,25 +96,12 @@ print(output.format(uniq))
 """
 
 
-# FInd Duplicate in List
+# Find Duplicate in List
 """
 You are given an List of size N containing each number 1 and N-1 at least once.
 There is a single integer value that is present in the List twice.
 
 You're task is to find the integer value that present in the array.
-
-list1 = [1,2,3,4,3]
-N = 5
-dplc = 0
-
-for i in range(N):
-    dplc = dplc ^ list1[i]
-
-for i in range(1, 5, 1):
-    dplc = dplc ^ i
-
-print(dplc)
-"""
 
 list1 = [1,2,3,4,2]
 N = 5
@@ -126,4 +115,26 @@ for i in range(1, 5, 1):
 
 output = "Duplicate no is: {}"
 print(output.format(dplc))
-    
+"""
+
+
+#Reverse of an List using For Loop
+"""
+list1 = [1,2,3,4,5,6]
+N = 6
+temp = 0
+j = 0
+for i in range(N):
+    j = (N-i)-1
+
+    if(i>j):
+        break
+
+    temp = list1[i]    
+    list1[i] = list1[j]
+    list1[j] = temp
+
+print(list1)
+"""
+
+
