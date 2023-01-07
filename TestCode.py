@@ -1,48 +1,60 @@
-Ques1 = { 'question': 'What does the abbreviation HTML stand for', 
-        'a': 'HyperText Markup Language', 
-        'b': 'Hyper Markup Language',
-        'c': 'HyperText M Language', 
-        'd': 'HText Markup Language',
-        'ans': 'a' }
+# count = 0
 
-Ques2 = { 'question': 'The correct sequence of HTML tags for starting a webpage is -', 
-        'a': 'Head, Title, HTML, body', 
-        'b': 'HTML, Body, Title, Head',
-        'c': 'HTML, Head, Title, Body', 
-        'd': 'HTML, Head, Title, Body',
-        'ans': 'd' }
+# Ques1 = { 'question': 'What does the abbreviation HTML stand for', 
+#         'a': 'HyperText Markup Language', 
+#         'b': 'Hyper Markup Language',
+#         'c': 'HyperText M Language', 
+#         'd': 'HText Markup Language',
+#         'ans': 'a' }
 
-Ques3 = { 'question': 'Which of the following element is responsible for making the text bold in HTML?', 
-        'a': '<pre>', 
-        'b': '<a>',
-        'c': '<b>', 
-        'd': '<br>',
-        'ans': 'c' }
+# print("\n\n"+Ques1['question'] + "\n"+ 
+#     " a: " + Ques1['a'] + "\n"+
+#     " b: " + Ques1['b'] + "\n"+
+#     " c: " + Ques1['c'] + "\n"+
+#     " d: " + Ques1['d'] + "\n")
 
-print("\n\n"+Ques1['question'] + "\n"+ 
-    " a: " + Ques1['a'] + "\n"+
-    " b: " + Ques1['b'] + "\n"+
-    " c: " + Ques1['c'] + "\n"+
-    " d: " + Ques1['d'] + "\n")
+# q1 = input("Enter Your Choice: ")
+# if(Ques1['ans'] == q1):
+#     count += 1;
 
-q1 = input("Enter Your Choice: ")
 
-print("\n\n"+Ques2['question'] + "\n"+ 
-    " a: " + Ques2['a'] + "\n"+
-    " b: " + Ques2['b'] + "\n"+
-    " c: " + Ques2['c'] + "\n"+
-    " d: " + Ques2['d'] + "\n")
+# Ques2 = { 'question': 'The correct sequence of HTML tags for starting a webpage is -', 
+#         'a': 'Head, Title, HTML, body', 
+#         'b': 'HTML, Body, Title, Head',
+#         'c': 'HTML, Head, Title, Body', 
+#         'd': 'HTML, Head, Title, Body',
+#         'ans': 'd' }
 
-q2 = input("Enter Your Choice: ")
+# print("\n\n"+Ques2['question'] + "\n"+ 
+#     " a: " + Ques2['a'] + "\n"+
+#     " b: " + Ques2['b'] + "\n"+
+#     " c: " + Ques2['c'] + "\n"+
+#     " d: " + Ques2['d'] + "\n")
 
-print("\n\n"+Ques3['question'] + "\n"+ 
-    " a: " + Ques3['a'] + "\n"+
-    " b: " + Ques3['b'] + "\n"+
-    " c: " + Ques3['c'] + "\n"+
-    " d: " + Ques3['d'] + "\n")
+# q2 = input("Enter Your Choice: ")
+# if(Ques2['ans'] == q2):
+#     count += 1;
+
+
+# Ques3 = { 'question': 'Which of the following element is responsible for making the text bold in HTML?', 
+#         'a': '<pre>', 
+#         'b': '<a>',
+#         'c': '<b>', 
+#         'd': '<br>',
+#         'ans': 'c' }
+
+# print("\n\n"+Ques3['question'] + "\n"+ 
+#     " a: " + Ques3['a'] + "\n"+
+#     " b: " + Ques3['b'] + "\n"+
+#     " c: " + Ques3['c'] + "\n"+
+#     " d: " + Ques3['d'] + "\n")
     
-q3 = input("Enter Your Choice: ")
+# q3 = input("Enter Your Choice: ")
+# if(Ques3['ans'] == q3):
+#     count += 1;
 
+
+# print("Result is: {}".format(count))
 
 # **** 
 # *  *
@@ -67,3 +79,4 @@ q3 = input("Enter Your Choice: ")
 #             star += "*";
 #         print(star)
 #         star = ""
+
